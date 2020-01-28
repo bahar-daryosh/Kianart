@@ -1,167 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" data-textdirection="rtl" class="loading">
 
-<!-- Mirrored from pixinvent.com/free-bootstrap-template/robust-lite/html/rtl/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Jun 2017 06:37:27 GMT -->
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description" content="Robust admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, robust admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="PIXINVENT">
-    <title>وب سایت من</title>
-    <link rel="apple-touch-icon" sizes="60x60" href="/admin/images/ico/apple-icon-60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/admin/images/ico/apple-icon-76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/admin/images/ico/apple-icon-120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/admin/images/ico/apple-icon-152.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://pixinvent.com/free-bootstrap-template/robust-lite/app-assets/images/ico/favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="/admin/images/ico/favicon-32.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <!-- BEGIN VENDOR CSS-->
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/bootstrap.css">
-    <!-- font icons-->
-    <link rel="stylesheet" type="text/css" href="/admin/fonts/icomoon.css">
-    <link rel="stylesheet" type="text/css" href="/admin/fonts/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" type="text/css" href="/admin/vendors/css/extensions/pace.css">
-    <!-- END VENDOR CSS-->
-    <!-- BEGIN ROBUST CSS-->
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/bootstrap-extended.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/app.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/colors.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/custom-rtl.css">
-    <!-- END ROBUST CSS-->
-    <!-- BEGIN Page Level CSS-->
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/core/menu/menu-types/vertical-menu.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css-rtl/core/colors/palette-gradient.css">
-    <!-- END Page Level CSS-->
-    <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="..//admin/css/style-rtl.css">
-    <!-- END Custom CSS-->
-</head>
 <body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns  fixed-navbar">
 
 <!-- navbar-fixed-top-->
-<nav class="header-navbar navbar navbar-with-menu navbar-fixed-top navbar-semi-dark navbar-shadow">
-    <div class="navbar-wrapper">
-        <div class="navbar-header">
-            <ul class="nav navbar-nav">
-                <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5 font-large-1"></i></a></li>
-                <li class="nav-item"><a href="index.html" class="navbar-brand nav-link"><img alt="branding logo" src="/admin/images/logo/robust-logo-light.png" data-expand="/admin/images/logo/robust-logo-light.png" data-collapse="/admin/images/logo/robust-logo-small.png" class="brand-logo"></a></li>
-                <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="icon-ellipsis pe-2x icon-icon-rotate-right-right"></i></a></li>
-            </ul>
-        </div>
-        <div class="navbar-container content container-fluid">
-            <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item hidden-sm-down"><a class="nav-link nav-menu-main menu-toggle hidden-xs is-active"><i class="icon-menu5">         </i></a></li>
-                    <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="ficon icon-expand2"></i></a></li>
-                    <li class="nav-item hidden-sm-down"><a href="https://pixinvent.com/bootstrap-admin-template/robust/" target="_blank" class="btn btn-success upgrade-to-pro">Upgrade to PRO $24</a></li>
-                </ul>
-                <ul class="nav navbar-nav float-xs-right">
-                    <li class="dropdown dropdown-language nav-item"><a id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link"><i class="flag-icon flag-icon-ir"></i><span class="selected-language">فارسی</span></a>
-                        <div aria-labelledby="dropdown-flag" class="dropdown-menu"><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-ir"></i> فارسی</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-gb"></i> English</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-fr"></i> French</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-de"></i> German</a></div>
-                    </li>
-                    <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-bell4"></i><span class="tag tag-pill tag-default tag-danger tag-default tag-up">5</span></a>
-                        <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
-                            <li class="dropdown-menu-header">
-                                <h6 class="dropdown-header m-0"><span class="grey darken-2">اعلان ها</span><span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5 جدید</span></h6>
-                            </li>
-                            <li class="list-group scrollable-container ps-container ps-theme-dark ps-active-y" data-ps-id="0985c8c7-5a9e-3232-755b-df64ee42c274"><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left valign-middle"><i class="icon-cart3 icon-bg-circle bg-cyan"></i></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">شما سفارش جدیدی دارید</h6>
-                                            <p class="notification-text font-small-3 text-muted">Lorem ipsum dolor sit amet, consectetuer elit.</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">30 minutes ago</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left valign-middle"><i class="icon-monitor3 icon-bg-circle bg-red bg-darken-1"></i></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading red darken-1">99% لود سرور</h6>
-                                            <p class="notification-text font-small-3 text-muted">Aliquam tincidunt mauris eu risus.</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Five hour ago</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left valign-middle"><i class="icon-server2 icon-bg-circle bg-yellow bg-darken-3"></i></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading yellow darken-3">اعلان های خطر</h6>
-                                            <p class="notification-text font-small-3 text-muted">Vestibulum auctor dapibus neque.</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left valign-middle"><i class="icon-check2 icon-bg-circle bg-green bg-accent-3"></i></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">تکمیل کار</h6><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">آخر هفته</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left valign-middle"><i class="icon-bar-graph-2 icon-bg-circle bg-teal"></i></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">گزارش ماهانه را تولید کنید</h6><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">ماه گذشته</time></small>
-                                        </div>
-                                    </div></a><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 320px; right: 373px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 236px;"></div></div></li>
-                            <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">خواندن همه اعلان ها</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-mail6"></i><span class="tag tag-pill tag-default tag-info tag-default tag-up">8</span></a>
-                        <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
-                            <li class="dropdown-menu-header">
-                                <h6 class="dropdown-header m-0"><span class="grey darken-2">پیام ها</span><span class="notification-tag tag tag-default tag-info float-xs-right m-0">4 New</span></h6>
-                            </li>
-                            <li class="list-group scrollable-container ps-container ps-theme-dark ps-active-y" data-ps-id="f8126846-773c-12a0-f9f9-d0207f7ecec5"><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="/admin/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">علی عابدی</h6>
-                                            <p class="notification-text font-small-3 text-muted">من نمونه کارهای شما را دوست دارم، بگذارید پروژه را شروع کنیم.</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">امروز</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left"><span class="avatar avatar-sm avatar-busy rounded-circle"><img src="/admin/images/portrait/small/avatar-s-2.png" alt="avatar"><i></i></span></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">حسین توکلی</h6>
-                                            <p class="notification-text font-small-3 text-muted">من کار شما را دیده ام، وجود دارد</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">سشنبه</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="/admin/images/portrait/small/avatar-s-3.png" alt="avatar"><i></i></span></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">عارف محمدزاده</h6>
-                                            <p class="notification-text font-small-3 text-muted">آیا می توانیم در این هفته تماس بگیریم؟ ?</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">جمعه</time></small>
-                                        </div>
-                                    </div></a><a href="javascript:void(0)" class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-left"><span class="avatar avatar-sm avatar-away rounded-circle"><img src="/admin/images/portrait/small/avatar-s-6.png" alt="avatar"><i></i></span></div>
-                                        <div class="media-body">
-                                            <h6 class="media-heading">اکبر جوی</h6>
-                                            <p class="notification-text font-small-3 text-muted">ما این شب شنبه شب جشن پروژه داریم.</p><small>
-                                                <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">ماه گذشته</time></small>
-                                        </div>
-                                    </div></a><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 320px; right: 373px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 258px;"></div></div></li>
-                            <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">تمام پیام ها را بخوانید</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="/admin/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span><span class="user-name">جان دویی</span></a>
-                        <div class="dropdown-menu dropdown-menu-right"><a href="#" class="dropdown-item"><i class="icon-head"></i> ویرایش پروفایل</a><a href="#" class="dropdown-item"><i class="icon-mail6"></i> صندوق ورودی من</a><a href="#" class="dropdown-item"><i class="icon-clipboard2"></i> کار</a><a href="#" class="dropdown-item"><i class="icon-calendar5"></i> تقویم</a>
-                            <div class="dropdown-divider"></div><a href="#" class="dropdown-item"><i class="icon-power3"></i> خروج</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
 
 <!-- ////////////////////////////////////////////////////////////////////////////-->
 
@@ -176,69 +16,39 @@
     <!-- main menu content-->
     <div class="main-menu-content">
         <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
-            <li class=" nav-item"><a href="index.html"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">داشبورد</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2">2</span></a>
+            <li class=" nav-item"><a href="{{route('/dashboard')}}"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">داشبورد</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2">2</span></a>
+
+            </li>
+            <li class=" nav-item"><a href="#"><i class="icon-android-contact"></i><span data-i18n="nav.page_layouts.main" class="menu-title">مدیریت کاربران</span></a>
                 <ul class="menu-content">
-                    <li class="active"><a href="index.html" data-i18n="nav.dash.main" class="menu-item">داشبورد</a>
+                    <li><a href="{{route('users.index')}}" data-i18n="nav.page_layouts.1_column" class="menu-item">کاربران</a>
                     </li>
-                    <li><a href="dashboard-2.html" data-i18n="nav.dash.main" class="menu-item">داشبورد 2</a>
+                    <li><a href="{{route('users.create')}}" data-i18n="nav.page_layouts.2_columns" class="menu-item">کابر جدید</a>
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="icon-stack-2"></i><span data-i18n="nav.page_layouts.main" class="menu-title">لایه های صفحه</span></a>
+            <li class=" nav-item"><a href="#"><i class="icon-stack-2"></i><span data-i18n="nav.page_layouts.main" class="menu-title">مدیریت پست ها</span></a>
                 <ul class="menu-content">
-                    <li><a href="layout-1-column.html" data-i18n="nav.page_layouts.1_column" class="menu-item">1 ستون</a>
+                    <li><a href="layout-1-column.html" data-i18n="nav.page_layouts.1_column" class="menu-item">تمام پست ها</a>
                     </li>
-                    <li><a href="layout-2-columns.html" data-i18n="nav.page_layouts.2_columns" class="menu-item">2 ستون</a>
+                    <li><a href="layout-2-columns.html" data-i18n="nav.page_layouts.2_columns" class="menu-item">پست جدید</a>
                     </li>
-                    <li><a href="layout-boxed.html" data-i18n="nav.page_layouts.boxed_layout" class="menu-item">طرح جعبه</a>
+                    <li><a href="layout-boxed.html" data-i18n="nav.page_layouts.boxed_layout" class="menu-item">پست جدید</a>
                     </li>
-                    <li><a href="layout-static.html" data-i18n="nav.page_layouts.static_layout" class="menu-item">طرح ثابت</a>
-                    </li>
+
                     <li class="navigation-divider"></li>
-                    <li><a href="layout-light.html" data-i18n="nav.page_layouts.light_layout" class="menu-item">طرح سبک</a>
+                    <li><a href="layout-light.html" data-i18n="nav.page_layouts.light_layout" class="menu-item">کامنت ها</a>
                     </li>
-                    <li><a href="layout-dark.html" data-i18n="nav.page_layouts.dark_layout" class="menu-item">طرح تیره</a>
-                    </li>
-                    <li><a href="layout-semi-dark.html" data-i18n="nav.page_layouts.semi_dark_layout" class="menu-item">Semi dark layout</a>
-                    </li>
+
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="icon-briefcase4"></i><span data-i18n="nav.project.main" class="menu-title">صفحه ها</span></a>
+            <li class=" nav-item"><a href="#"><i class="icon-briefcase4"></i><span data-i18n="nav.project.main" class="menu-title">گالری</span></a>
                 <ul class="menu-content">
-                    <li><a href="invoice-template.html" data-i18n="nav.invoice.invoice_template" class="menu-item">قالب صورت وضعیت</a>
+                    <li><a href="{{route('media.index')}}" data-i18n="nav.invoice.invoice_template" class="menu-item">تمامی عکس ها</a>
                     </li>
-                    <li><a href="gallery-grid.html" data-i18n="nav.gallery_pages.gallery_grid" class="menu-item">گرید گالری</a>
+                    <li><a href="{{route('media.create')}}" data-i18n="nav.gallery_pages.gallery_grid" class="menu-item">آپلود عکس</a>
                     </li>
-                    <li><a href="search-page.html" data-i18n="nav.search_pages.search_page" class="menu-item">صفحه جست و جو</a>
-                    </li>
-                    <li><a href="search-website.html" data-i18n="nav.search_pages.search_website" class="menu-item">جست و جو سایت</a>
-                    </li>
-                    <li><a href="login-simple.html" data-i18n="nav.login_register_pages.login_simple" class="menu-item">نمونه ورود</a>
-                    </li>
-                    <li><a href="register-simple.html" data-i18n="nav.login_register_pages.register_simple" class="menu-item">نمونه عضویت</a>
-                    </li>
-                    <li><a href="unlock-user.html" data-i18n="nav.login_register_pages.unlock_user" class="menu-item">قفل کاربر</a>
-                    </li>
-                    <li><a href="recover-password.html" data-i18n="nav.login_register_pages.recover_password" class="menu-item">بازیابی گذرواژه</a>
-                    </li>
-                    <li><a href="#" data-i18n="nav.error_pages.main" class="menu-item">خطا</a>
-                        <ul class="menu-content">
-                            <li><a href="error-400.html" data-i18n="nav.error_pages.error_400" class="menu-item">خطا 400</a>
-                            </li>
-                            <li><a href="error-401.html" data-i18n="nav.error_pages.error_401" class="menu-item">خطا 401</a>
-                            </li>
-                            <li><a href="error-403.html" data-i18n="nav.error_pages.error_403" class="menu-item">خطا 403</a>
-                            </li>
-                            <li><a href="error-404.html" data-i18n="nav.error_pages.error_404" class="menu-item">خطا 404</a>
-                            </li>
-                            <li><a href="error-500.html" data-i18n="nav.error_pages.error_500" class="menu-item">خطا 500</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="coming-soon-flat.html" data-i18n="nav.other_pages.coming_soon.coming_soon_flat" class="menu-item">به زودی</a>
-                    </li>
-                    <li><a href="under-maintenance.html" data-i18n="nav.other_pages.under_maintenance" class="menu-item">نگهداری</a>
-                    </li>
+
                 </ul>
             </li>
             <li class=" nav-item"><a href="#"><i class="icon-ios-albums-outline"></i><span data-i18n="nav.cards.main" class="menu-title">کارت ها</span></a>
@@ -446,12 +256,8 @@
                     </li>
                 </ul>
             </li>
-            <li class=" navigation-header"><span data-i18n="nav.category.support">پشتیبانی</span><i data-toggle="tooltip" data-placement="right" data-original-title="Support" class="icon-ellipsis icon-ellipsis"></i>
-            </li>
-            <li class=" nav-item"><a href="https://github.com/pixinvent/robust-free-bootstrap-admin-template/issues"><i class="icon-support"></i><span data-i18n="nav.support_raise_support.main" class="menu-title">افزایش پشتیبانی</span></a>
-            </li>
-            <li class=" nav-item"><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/documentation"><i class="icon-document-text"></i><span data-i18n="nav.support_documentation.main" class="menu-title">مستندات</span></a>
-            </li>
+
+
         </ul>
     </div>
     <!-- /main menu content-->
@@ -466,337 +272,8 @@
         <div class="content-header row">
         </div>
         <div class="content-body"><!-- stats -->
-            <div class="row">
-                <div class="col-xl-3 col-lg-6 col-xs-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <div class="media">
-                                    <div class="media-body text-xs-left">
-                                        <h3 class="pink">278</h3>
-                                        <span>پروژه های جدید</span>
-                                    </div>
-                                    <div class="media-right media-middle">
-                                        <i class="icon-bag2 pink font-large-2 float-xs-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-xs-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <div class="media">
-                                    <div class="media-body text-xs-left">
-                                        <h3 class="teal">156</h3>
-                                        <span>مهمان های جدید</span>
-                                    </div>
-                                    <div class="media-right media-middle">
-                                        <i class="icon-user1 teal font-large-2 float-xs-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-xs-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <div class="media">
-                                    <div class="media-body text-xs-left">
-                                        <h3 class="deep-orange">64.89 %</h3>
-                                        <span>نرخ تبدیل</span>
-                                    </div>
-                                    <div class="media-right media-middle">
-                                        <i class="icon-diagram deep-orange font-large-2 float-xs-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-xs-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <div class="media">
-                                    <div class="media-body text-xs-left">
-                                        <h3 class="cyan">423</h3>
-                                        <span>بیلیت های پشتیبانی</span>
-                                    </div>
-                                    <div class="media-right media-middle">
-                                        <i class="icon-ios-help-outline cyan font-large-2 float-xs-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/ stats -->
-            <!--/ project charts -->
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <ul class="list-inline text-xs-center pt-2 m-0">
-                                <li class="mr-1">
-                                    <h6><i class="icon-circle warning"></i> <span class="grey darken-1">باقی مانده</span></h6>
-                                </li>
-                                <li class="mr-1">
-                                    <h6><i class="icon-circle success"></i> <span class="grey darken-1">کامل شده</span></h6>
-                                </li>
-                            </ul>
-                            <div class="chartjs height-250">
-                                <canvas id="line-stacked-area" height="250"></canvas>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-xs-3 text-xs-center">
-                                    <span class="text-muted">کل پروژه ها</span>
-                                    <h2 class="block font-weight-normal">18</h2>
-                                    <progress class="progress progress-xs mt-2 progress-success" value="70" max="100"></progress>
-                                </div>
-                                <div class="col-xs-3 text-xs-center">
-                                    <span class="text-muted">کل کارها</span>
-                                    <h2 class="block font-weight-normal">125</h2>
-                                    <progress class="progress progress-xs mt-2 progress-success" value="40" max="100"></progress>
-                                </div>
-                                <div class="col-xs-3 text-xs-center">
-                                    <span class="text-muted">کارهای کامل شده</span>
-                                    <h2 class="block font-weight-normal">242</h2>
-                                    <progress class="progress progress-xs mt-2 progress-success" value="60" max="100"></progress>
-                                </div>
-                                <div class="col-xs-3 text-xs-center">
-                                    <span class="text-muted">درآمد کل</span>
-                                    <h2 class="block font-weight-normal">$11,582</h2>
-                                    <progress class="progress progress-xs mt-2 progress-success" value="90" max="100"></progress>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-12">
-                    <div class="card card-inverse bg-info">
-                        <div class="card-body">
-                            <div class="position-relative">
-                                <div class="chart-title position-absolute mt-2 ml-2 white">
-                                    <h1 class="display-4">84%</h1>
-                                    <span>رضایت کارمندان</span>
-                                </div>
-                                <canvas id="emp-satisfaction" class="height-400 block"></canvas>
-                                <div class="chart-stats position-absolute position-bottom-0 position-right-0 mb-2 mr-3 white">
-                                    <a href="#" class="btn bg-info bg-darken-3 mr-1 white">آمار <i class="icon-stats-bars"></i></a> برای سال گذشته.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/ project charts -->
-            <!-- Recent invoice with Statistics -->
-            <div class="row match-height">
-                <div class="col-xl-4 col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="p-2 text-xs-center bg-deep-orange media-left media-middle">
-                                    <i class="icon-user1 font-large-2 white"></i>
-                                </div>
-                                <div class="p-2 media-body">
-                                    <h5 class="deep-orange">کاربرهای جدید</h5>
-                                    <h5 class="text-bold-400">1,22,356</h5>
-                                    <progress class="progress progress-sm progress-deep-orange mt-1 mb-0" value="45" max="100"></progress>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="p-2 text-xs-center bg-cyan media-left media-middle">
-                                    <i class="icon-camera7 font-large-2 white"></i>
-                                </div>
-                                <div class="p-2 media-body">
-                                    <h5>محصولات جدید</h5>
-                                    <h5 class="text-bold-400">28</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="p-2 media-body text-xs-left">
-                                    <h5>کاربران جدید</h5>
-                                    <h5 class="text-bold-400">1,22,356</h5>
-                                </div>
-                                <div class="p-2 text-xs-center bg-teal media-right media-middle">
-                                    <i class="icon-user1 font-large-2 white"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-8 col-lg-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="card-title">فاکتوهای اخیر</h4>
-                            <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
-                            <div class="heading-elements">
-                                <ul class="list-inline mb-0">
-                                    <li><a data-action="reload"><i class="icon-reload"></i></a></li>
-                                    <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-block">
-                                <p>مجموع فاکتورهای پرداخت شده 240, unpaid 150. <span class="float-xs-right"><a href="#">Invoice Summary <i class="icon-arrow-right2"></i></a></span></p>
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table table-hover mb-0">
-                                    <thead>
-                                    <tr>
-                                        <th>صورت وضعیت#</th>
-                                        <th>نام مشتری</th>
-                                        <th>وضعیت</th>
-                                        <th>ناشی از</th>
-                                        <th>مقدار</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="text-truncate"><a href="#">INV-001001</a></td>
-                                        <td class="text-truncate">Elizabeth W.</td>
-                                        <td class="text-truncate"><span class="tag tag-default tag-success">Paid</span></td>
-                                        <td class="text-truncate">10/05/2016</td>
-                                        <td class="text-truncate">$ 1200.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-truncate"><a href="#">INV-001012</a></td>
-                                        <td class="text-truncate">Andrew D.</td>
-                                        <td class="text-truncate"><span class="tag tag-default tag-success">Paid</span></td>
-                                        <td class="text-truncate">20/07/2016</td>
-                                        <td class="text-truncate">$ 152.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-truncate"><a href="#">INV-001401</a></td>
-                                        <td class="text-truncate">Megan S.</td>
-                                        <td class="text-truncate"><span class="tag tag-default tag-success">Paid</span></td>
-                                        <td class="text-truncate">16/11/2016</td>
-                                        <td class="text-truncate">$ 1450.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-truncate"><a href="#">INV-01112</a></td>
-                                        <td class="text-truncate">Doris R.</td>
-                                        <td class="text-truncate"><span class="tag tag-default tag-warning">Overdue</span></td>
-                                        <td class="text-truncate">11/12/2016</td>
-                                        <td class="text-truncate">$ 5685.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-truncate"><a href="#">INV-008101</a></td>
-                                        <td class="text-truncate">Walter R.</td>
-                                        <td class="text-truncate"><span class="tag tag-default tag-warning">Overdue</span></td>
-                                        <td class="text-truncate">18/05/2016</td>
-                                        <td class="text-truncate">$ 685.00</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Recent invoice with Statistics -->
-            <div class="row match-height">
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="card" style="height: 440px;">
-                        <div class="card-body">
-                            <img class="card-img-top img-fluid" src="/admin/images/carousel/05.jpg" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">اساس</h4>
-                                <p class="card-text">بعضی از نمونه های سریع نمونه ای که بر روی عنوان کارت ساخته می شوند و بخش عمده ای از محتوای کارت را تشکیل می دهند</p>
-                                <a href="#" class="btn btn-outline-pink">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="card" style="height: 440px;">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <h4 class="card-title">لیست گروه ها</h4>
-                                <p class="card-text">بعضی از نمونه های سریع نمونه ای که بر روی عنوان کارت ساخته می شوند و بخش عمده ای از محتوای کارت را تشکیل می دهند</p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill bg-primary float-xs-right">4</span> فردا فقط نفرت
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill bg-info float-xs-right">2</span> Dapibus ac facilisis in
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill bg-warning float-xs-right">1</span> Morbi leo risus
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill bg-success float-xs-right">3</span> Porta ac consectetur ac
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill bg-danger float-xs-right">8</span> Vestibulum at eros
-                                </li>
-                            </ul>
-                            <div class="card-block">
-                                <a href="#" class="card-link">لینک کارت</a>
-                                <a href="#" class="card-link">لینک نویسنده</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-12 col-sm-12">
-                    <div class="card" style="height: 440px;">
-                        <div class="card-body">
-                            <div class="card-block">
-                                <h4 class="card-title">چرخ فلک</h4>
-                                <h6 class="card-subtitle text-muted">زیرنویس کارت پشتیبانی</h6>
-                            </div>
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item">
-                                        <img src="/admin/images/carousel/02.jpg" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item active">
-                                        <img src="/admin/images/carousel/03.jpg" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/admin/images/carousel/01.jpg" alt="Third slide">
-                                    </div>
-                                </div>
-                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                    <span class="icon-prev" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                    <span class="icon-next" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <div class="card-block">
-                                <p class="card-text">بعضی از نمونه های سریع نمونه ای که بر روی عنوان کارت ساخته می شوند و بخش عمده ای از محتوای کارت را تشکیل می دهند</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @yield('content')
+
 
         </div>
     </div>
@@ -828,6 +305,7 @@
 <!-- END ROBUST JS-->
 <!-- BEGIN PAGE LEVEL JS-->
 <script src="/admin/js/scripts/pages/dashboard-lite.js" type="text/javascript"></script>
+@yield('scripts')
 <!-- END PAGE LEVEL JS-->
 </body>
 

@@ -11,6 +11,7 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 /*
 Route::get('/', function () {
@@ -31,6 +32,16 @@ Route::get('/signup','');
 */
 
 Auth::routes();
+Route::group(['middleware'=>'admin'],function (){
+
+
+    Route::get('/dashboard',function(){
+        return view('dashboard.Index');
+    })->name('/dashboard');
+    Route::resource('dashboard/users', 'AdminUserController');
+    Route::resource('dashboard/media','AdminMediaController');
+
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', 'HomeController@test');
@@ -40,5 +51,4 @@ Route::get('/contact','ThemainController@contact');
 Route::get('/articles','ThemainController@articles');
 Route::get('/singleArticle','ThemainController@singleArticle');
 Route::get('/card','ThemainController@card');
-
 

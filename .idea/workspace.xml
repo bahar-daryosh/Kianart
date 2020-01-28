@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c8feb1-dede-46bd-a50a-07e35cd4b7ac" name="Default" comment="" />
+    <list default="true" id="f0c8feb1-dede-46bd-a50a-07e35cd4b7ac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/admin/css/style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/media/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_173803_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_173803_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/css-rtl/core/menu/menu-types/vertical-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css-rtl/core/menu/menu-types/vertical-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/fonts/flag-icon-css/css/flag-icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/fonts/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +42,15 @@
       <executable />
     </execution>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>@y</find>
-      <find>main</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\misdarush\laravel\test\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -109,9 +142,11 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WApD8vF0Ug2lQ0L3EkLGOBCPfS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -160,6 +195,15 @@
       <workItem from="1578602148936" duration="1413000" />
       <workItem from="1578604035277" duration="11000" />
       <workItem from="1578759519457" duration="457000" />
+      <workItem from="1579109678019" duration="13804000" />
+      <workItem from="1579191347158" duration="46000" />
+      <workItem from="1579953720139" duration="1907000" />
+      <workItem from="1580015871204" duration="23444000" />
+      <workItem from="1580101336061" duration="1608000" />
+      <workItem from="1580112956079" duration="12537000" />
+      <workItem from="1580188056705" duration="162000" />
+      <workItem from="1580188263312" duration="17166000" />
+      <workItem from="1580214173352" duration="252000" />
     </task>
     <servers />
   </component>
@@ -167,17 +211,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1578759976325">
+    <state x="419" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580118424031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578759976325" />
+    <state x="419" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580118424031" />
+    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580117501467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580117501467" />
+    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1579191394228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579191394228" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1578603571288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578603571288" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1578759790448">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1580188587760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578759790448" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580188587760" />
   </component>
 </project>
