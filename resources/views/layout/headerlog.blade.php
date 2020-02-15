@@ -6,16 +6,16 @@
                 <nav
                         class="supernav d-xl-flex justify-content-between hiddeenonmobile d-none d-xl-block bg-solid-purple nopadding">
                     <ul id="logo">
-                        <li><a href=""><img src="assets/images/logo-white.svg" alt=""></a></li>
+                        <li><a href="/"><img src="/assets/images/logo-white.svg" alt=""></a></li>
 
                     </ul>
                     <ul id="mainnav">
                         <li>
-                            <a href="">درباره ما<i class="fas fa-chevron-down"></i></a>
+                            <a href="{{route('about-us')}}">درباره ما<i class="fas fa-chevron-down"></i></a>
 
                         </li>
                         <li>
-                            <a href="">میزبانی وب<i class="fas fa-chevron-down"></i></a>
+                            <a href="{{route('card')}}">میزبانی وب<i class="fas fa-chevron-down"></i></a>
                             <div class="submenu">
                                 <ul class="submenu p-0">
                                     <li><a href="">هاست لینوکس اشتراکی B</a></li>
@@ -25,12 +25,18 @@
                             </div>
                         </li>
                         <li>
-                            <a href="">طراحی وب سایت<i class="fas fa-chevron-down"></i></a>
+                            <a href="{{route('tags')}}">طراحی وب سایت<i class="fas fa-chevron-down"></i></a>
                             <div class="submenu">
                                 <ul class="submenu p-0">
-                                    <li><a href="">طراحی سایت های وردپرسی</a></li>
-                                    <li><a href="">طراحی سایت لاراول</a></li>
-                                    <li><a href="">طراحی Ui و Ux</a></li>
+                                    <li>
+                                        <a href="{{route('home.workSkill',['id'=> 5])}}">طراحی سایت های وردپرسی</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('home.workSkill',['id'=> 1])}}">طراحی سایت لاراول</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('home.workSkill',['id'=> 6])}}">طراحی Ui و Ux</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -52,11 +58,49 @@
                             </div>
                         </li>
                         <li>
-                            <a href="">نمونه کار</a>
+                            <a href="{{route('home.work-samples')}}">نمونه کار</a>
                         </li>
 
                         <li>
                             <a href="">تماس با ما</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+
+                            @if (Route::has('login'))
+
+                                @auth
+                                    <a  href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="icon-power3"></i> خروج</a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                @else
+                                    <a  href="{{ route('login') }}"
+                                        onclick="event.preventDefault();
+                                    document.getElementById('login-form').submit();"><i class="icon-user"></i>ورود
+                                    </a>
+                                    @if (Route::has('register'))
+                                        <a  href="{{ route('register') }}"
+                                            onclick="event.preventDefault();
+                                        document.getElementById('register-form').submit();">ثبت نام
+                                        </a>
+                                    @endif
+                                @endauth
+
+                            @endif
+
+
+
+                            <form id="register-form" action="{{ route('register') }}" style="display: none;">
+                                @csrf
+                            </form>
+
+                            <form id="login-form" action="{{ route('login') }}" style="display: none;">
+                                @csrf
+                            </form>
                         </li>
                     </ul>
                     <ul id="signup">

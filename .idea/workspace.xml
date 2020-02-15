@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c8feb1-dede-46bd-a50a-07e35cd4b7ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/admin/css/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/media/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/users/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+    <list default="true" id="f0c8feb1-dede-46bd-a50a-07e35cd4b7ac" name="Default" comment="admin panel with user edit and media upload">
+      <change afterPath="$PROJECT_DIR$/public/assets/css/customStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/reply/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/reply/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/skill/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/skill/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/category/workSample-category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/skill/workSample-skill.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/work-sample.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/work-samples.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThemainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThemainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_173803_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_173803_create_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/css-rtl/core/menu/menu-types/vertical-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css-rtl/core/menu/menu-types/vertical-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/fonts/flag-icon-css/css/flag-icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/fonts/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/single-article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/single-article.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/headerlog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/headerlog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/headermain.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/headermain.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +47,27 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,7 +181,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../larave_vue.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -164,6 +192,9 @@
       <recent name="D:\misdarush\laravel\test\resources\views\home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\misdarush\laravel\test\resources\views\home\worksample" />
+      <recent name="D:\misdarush\laravel\test\resources\views\dashboard\worksample" />
+      <recent name="D:\misdarush\laravel\test\resources\views\dashboard" />
       <recent name="D:\misdarush\laravel\test\resources\views\home" />
     </key>
   </component>
@@ -203,33 +234,85 @@
       <workItem from="1580112956079" duration="12537000" />
       <workItem from="1580188056705" duration="162000" />
       <workItem from="1580188263312" duration="17166000" />
-      <workItem from="1580214173352" duration="252000" />
+      <workItem from="1580214173352" duration="493000" />
+      <workItem from="1580792053114" duration="552000" />
+      <workItem from="1580792647214" duration="23229000" />
+      <workItem from="1580879177764" duration="22937000" />
+      <workItem from="1581143154713" duration="16288000" />
+      <workItem from="1581224457085" duration="18349000" />
+      <workItem from="1581310978322" duration="17388000" />
+      <workItem from="1581484216406" duration="629000" />
+      <workItem from="1581484867092" duration="18958000" />
+      <workItem from="1581742719763" duration="11014000" />
     </task>
+    <task id="LOCAL-00001" summary="admin panel with user edit and media upload">
+      <created>1580214610849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580214610849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="admin panel with user edit and media upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel with user edit and media upload" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580118424031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580118424031" />
-    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580117501467">
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580897465275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580117501467" />
-    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1579191394228">
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1580897465275" />
+    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581506623002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579191394228" />
+    <state x="350" y="62" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581506623002" />
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1580792784446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580792784446" />
+    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1581760827060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581760827060" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1578603571288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578603571288" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1580188587760">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1581742977045">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580188587760" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581742977045" />
+    <state x="317" y="27" width="731" height="674" key="find.popup" timestamp="1581145396803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="317" y="27" width="731" height="674" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581145396803" />
+    <state x="255" y="153" key="run.anything.popup" timestamp="1581752203991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="255" y="153" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581752203991" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1580806845306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580806845306" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/dashboard/comment/index.blade.php</url>
+          <line>81</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

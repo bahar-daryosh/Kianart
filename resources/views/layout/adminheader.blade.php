@@ -155,7 +155,13 @@
                     </li>
                     <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="/admin/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span><span class="user-name">جان دویی</span></a>
                         <div class="dropdown-menu dropdown-menu-right"><a href="#" class="dropdown-item"><i class="icon-head"></i> ویرایش پروفایل</a><a href="#" class="dropdown-item"><i class="icon-mail6"></i> صندوق ورودی من</a><a href="#" class="dropdown-item"><i class="icon-clipboard2"></i> کار</a><a href="#" class="dropdown-item"><i class="icon-calendar5"></i> تقویم</a>
-                            <div class="dropdown-divider"></div><a href="#" class="dropdown-item"><i class="icon-power3"></i> خروج</a>
+                            <div class="dropdown-divider"></div><a  class="dropdown-item" href="{{ route('logout') }}"
+                                                                    onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="icon-power3"></i> خروج</a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
                         </div>
                     </li>
                 </ul>

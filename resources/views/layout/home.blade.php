@@ -6,13 +6,19 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link href="assets/images/apple-touch-icon.png" rel="icon">
-    <link href="assets/css/jquery-ui.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/swiper.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="/assets/images/apple-touch-icon.png" rel="icon">
+    <link href="/assets/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/all.min.css" rel="stylesheet">
+    <link href="/assets/css/animate.css" rel="stylesheet">
+    <link href="/assets/css/swiper.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    {{-- icons for nav   --}}
+    <link rel="stylesheet" type="text/css" href="/admin/fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="/admin/fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="/admin/vendors/css/extensions/pace.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/customStyle.css">
+
     @yield('css')
     <title>
         kianart
@@ -135,7 +141,7 @@
                 <a href="articles.html">وبلاگ</a>
             </li>
             <li>
-                <a href="#"><img alt="" class="w-100=" src="assets/images/logo-white.svg"></a>
+                <a href="#"><img alt="" class="w-100=" src="/assets/images/logo-white.svg"></a>
             </li>
             <li>
                 <a href="#">سوالات متداول</a>
@@ -150,13 +156,13 @@
     </nav>
 </footer>
 
-<script src="assets/js/jquery-3.4.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/all.min.js"></script>
-<script src="assets/js/jquery-ui.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/swipwerasset.js"></script>
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/all.min.js"></script>
+<script src="/assets/js/jquery-ui.min.js"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/swipwerasset.js"></script>
 @yield('scripts')
 </body>
 

@@ -80,4 +80,7 @@ class User extends Authenticatable
         return $this->belongsTo('App\Photo','avatar_id');
 
     }
+    public function posts(){
+        return $this->hasMany('App\Post');
+    }
 }

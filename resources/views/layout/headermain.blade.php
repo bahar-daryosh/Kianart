@@ -9,80 +9,119 @@
                 </ul>
                 <ul id="mainnav">
                     <li>
-                        <a href="single-article.html">درباره ما<i class="fas fa-chevron-down"></i>
+                        <a href="{{route('about-us')}}">درباره ما<i class="fas fa-chevron-down"></i>
                         </a>
 
                     </li>
                     <li>
-                        <a href="single-article.html">میزبانی وب<i class="fas fa-chevron-down"></i>
+                        <a href="{{route('card')}}">میزبانی وب<i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">هاست لینوکس اشتراکی B</a>
+                                    <a href="{{route('singleArticle')}}">هاست لینوکس اشتراکی B</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">هاست لینوکس اشتراکی A</a>
+                                    <a href="{{route('singleArticle')}}">هاست لینوکس اشتراکی A</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">هاست لینوکس اختصاصی</a>
+                                    <a href="{{route('singleArticle')}}">هاست لینوکس اختصاصی</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">طراحی وب سایت<i class="fas fa-chevron-down"></i>
+                        <a href="{{route('tags')}}">طراحی وب سایت<i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">طراحی سایت های وردپرسی</a>
+                                    <a href="{{route('home.workSkill',['id'=> 5])}}">طراحی سایت های وردپرسی</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">طراحی سایت لاراول</a>
+                                    <a href="{{route('home.workSkill',['id'=> 1])}}">طراحی سایت لاراول</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">طراحی Ui و Ux</a>
+                                    <a href="{{route('home.workSkill',['id'=> 6])}}">طراحی Ui و Ux</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">پیام کوتاه
+                        <a href="{{route('singleArticle')}}">پیام کوتاه
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">سرویس پیام کوتاه وب سایت</a>
+                                    <a href="{{route('singleArticle')}}">سرویس پیام کوتاه وب سایت</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">شتابدهنده
+                        <a href="{{route('singleArticle')}}">شتابدهنده
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">شتابدهنده استارتاپی</a>
+                                    <a href="{{route('singleArticle')}}">شتابدهنده استارتاپی</a>
                                 </li>
 
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">نمونه کار</a>
+                        <a href="{{route('home.work-samples')}}">نمونه کار</a>
                     </li>
 
                     <li>
                         <a href="contact.html">تماس با ما</a>
                     </li>
                 </ul>
+                <ul>
+                    <li>
+
+                        @if (Route::has('login'))
+
+                            @auth
+                                <a  href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="icon-power3"></i> خروج</a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            @else
+                                <a  href="{{ route('login') }}"
+                                    onclick="event.preventDefault();
+                                    document.getElementById('login-form').submit();"><i class="icon-user"></i>ورود
+                                </a>
+                                @if (Route::has('register'))
+                                    <a  href="{{ route('register') }}"
+                                        onclick="event.preventDefault();
+                                        document.getElementById('register-form').submit();">ثبت نام
+                                    </a>
+                                @endif
+                            @endauth
+
+                        @endif
+
+
+
+                        <form id="register-form" action="{{ route('register') }}" style="display: none;">
+                            @csrf
+                        </form>
+
+                        <form id="login-form" action="{{ route('login') }}" style="display: none;">
+                            @csrf
+                        </form>
+                    </li>
+                </ul>
+
                 <ul id="signup">
                     <li>
-                        <a href="single-article.html">ثبت درخواست طراحی سایت</a>
+                        <a href="">ثبت درخواست طراحی سایت</a>
                     </li>
 
                 </ul>
@@ -97,111 +136,111 @@
             <div class="aside-nav position-absolute d-xl-none hidd">
                 <ul id="mainnav2">
                     <li>
-                        <a href="single-article.html">سازمان ها
+                        <a href="{{route('singleArticle')}}">سازمان ها
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu disactiv">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه اول</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه اول</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه اول</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه اول</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه اول</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه اول</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">میزبان ابری<i class="fas fa-chevron-down"></i>
+                        <a href="{{route('singleArticle')}}">میزبان ابری<i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu disactiv">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه دوم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه دوم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه دوم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه دوم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه دوم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه دوم</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">ابر سرور
+                        <a href="{{route('singleArticle')}}">ابر سرور
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu disactiv">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه سوم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه سوم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه سوم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه سوم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه سوم</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="single-article.html">سرور اختصاصی
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="submenu disactiv">
-                            <ul class="submenu p-0">
-                                <li>
-                                    <a href="single-article.html">تست زیر مجموعه چهارم</a>
-                                </li>
-                                <li>
-                                    <a href="single-article.html">تست زیر مجموعه چهارم</a>
-                                </li>
-                                <li>
-                                    <a href="single-article.html">تست زیر مجموعه چهارم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه سوم</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">CDN
+                        <a href="{{route('singleArticle')}}">سرور اختصاصی
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu disactiv">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه پنجم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه چهارم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه پنجم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه چهارم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه پنجم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه چهارم</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="single-article.html">SSL</a>
-                    </li>
-                    <li>
-                        <a href="single-article.html">...
+                        <a href="{{route('singleArticle')}}">CDN
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="submenu disactiv">
                             <ul class="submenu p-0">
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه هفتم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه پنجم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه هفتم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه پنجم</a>
                                 </li>
                                 <li>
-                                    <a href="single-article.html">تست زیر مجموعه هفتم</a>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه پنجم</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="{{route('singleArticle')}}">SSL</a>
+                    </li>
+                    <li>
+                        <a href="{{route('singleArticle')}}">...
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="submenu disactiv">
+                            <ul class="submenu p-0">
+                                <li>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه هفتم</a>
+                                </li>
+                                <li>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه هفتم</a>
+                                </li>
+                                <li>
+                                    <a href="{{route('singleArticle')}}">تست زیر مجموعه هفتم</a>
                                 </li>
                             </ul>
                         </div>

@@ -10,102 +10,23 @@
         </p>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
+                @foreach($categories as $category)
+                    <div class="col-12 col-md-4 pb-3">
+                        <div class="card">
+                            <img alt="server" class="card-img-top" src="/images/{{$category->image}}">
+                            <div class="card-body">
+                                <h2 class="card-title text-purple">{{$category->name}}</h2>
+                                <p class="card-text text-justify">
+                                    {{$category->caption}}
+                                </p>
+                                <p class="text-right">
+                                    <a class="btn btn-purple" href="">ادامه</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-3">
-                    <div class="card">
-                        <img alt="server" class="card-img-top" src="assets/images/tizer.gif">
-                        <div class="card-body">
-                            <h2 class="card-title text-purple">عنوان خدمات</h2>
-                            <p class="card-text text-justify">
-                                خلاصه ای راجع به خدمت را در این بخش قرار خواهیم داد تا بتوان راجع به آن
-                                خدمت توضیحاتی را به خواننده بدهیم. به این ترتیب
-                                خواننده میتواند انتخاب کند که میخواهد متن را بخواند یا خیر.
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-purple" href="single-article.html">ادامه</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
             </div>
 
         </div>
@@ -123,63 +44,108 @@
         <div class="container">
             <div id="costomerseffect">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="position-relative over-hiidden w-100 ourcustomer elem second">
-                            <img src="assets/images/article-01.png" alt="" class="w-100">
-                            <div class="position-absolute white-mover">
-                                &nbsp;
+                    @foreach($workSamples as $workSample)
+                        <div class="col-12 col-md-4 ">
+                            <div class="position-relative over-hiidden w-100 ourcustomer elem second ">
+
+                                <img src="/images/{{$workSample->image}}" alt="" class="w-100 h-image">
+
+                                <div class="position-absolute white-mover">
+                                    &nbsp;
+                                </div>
+                                <div class="position-absolute text-over w-100">
+                                    <p class="secondary-color-dark">
+                                        مشخصات سایت
+                                    </p>
+                                    <table class="table table-hover w-100">
+                                        <tbody class="center">
+                                        <tr>
+                                            <td>عنوان :</td><td>{{$workSample->title}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>نوع خدمات :</td><td>{{$workSample->category->name}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>زمینه فعالیت:</td><td>{{$workSample->workConspectus}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>مهارت :</td><td>{{$workSample->skill->name}}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="partialBorder">
+                                    <div class="leftTop"></div>
+                                    <div class="rightTop"></div>
+                                    <div class="leftBot"></div>
+                                    <div class="rightBot"></div>
+                                </div>
                             </div>
-                            <div class="position-absolute text-over">
-                                <p class="secondary-color-dark">
-                                    مشخصات سایت
-                                </p>
+                            <div class="ml-5 pl-4">
+                                <a role="button" class="btn btn-outline-secondary ml-5 mt-2 " href="{{route('home.work-sample',$workSample->id)}}">
+                                    مشاهده
+                                </a>
                             </div>
-                            <div class="partialBorder">
-                                <div class="leftTop"></div>
-                                <div class="rightTop"></div>
-                                <div class="leftBot"></div>
-                                <div class="rightBot"></div>
-                            </div>
+
                         </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="position-relative over-hiidden w-100 ourcustomer elem second">
-                            <img src="assets/images/article-01.png" alt="" class="w-100">
-                            <div class="position-absolute white-mover">
-                                &nbsp;
-                            </div>
-                            <div class="position-absolute text-over">
-                                <p class="secondary-color-dark">
-                                    مشخصات سایت
-                                </p>
-                            </div>
-                            <div class="partialBorder">
-                                <div class="leftTop"></div>
-                                <div class="rightTop"></div>
-                                <div class="leftBot"></div>
-                                <div class="rightBot"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="position-relative over-hiidden w-100 ourcustomer elem second">
-                            <img src="assets/images/article-01.png" alt="" class="w-100">
-                            <div class="position-absolute white-mover">
-                                &nbsp;
-                            </div>
-                            <div class="position-absolute text-over">
-                                <p class="secondary-color-dark">
-                                    مشخصات سایت
-                                </p>
-                            </div>
-                            <div class="partialBorder">
-                                <div class="leftTop"></div>
-                                <div class="rightTop"></div>
-                                <div class="leftBot"></div>
-                                <div class="rightBot"></div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+{{--                    <div class="col-12 col-md-4">--}}
+{{--                        <div class="position-relative over-hiidden w-100 ourcustomer elem second">--}}
+{{--                            <img src="assets/images/article-01.png" alt="" class="w-100">--}}
+{{--                            <div class="position-absolute white-mover">--}}
+{{--                                &nbsp;--}}
+{{--                            </div>--}}
+{{--                            <div class="position-absolute text-over">--}}
+{{--                                <p class="secondary-color-dark">--}}
+{{--                                    مشخصات سایت--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                            <div class="partialBorder">--}}
+{{--                                <div class="leftTop"></div>--}}
+{{--                                <div class="rightTop"></div>--}}
+{{--                                <div class="leftBot"></div>--}}
+{{--                                <div class="rightBot"></div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-12 col-md-4">--}}
+{{--                        <div class="position-relative over-hiidden w-100 ourcustomer elem second">--}}
+{{--                            <img src="assets/images/article-01.png" alt="" class="w-100">--}}
+{{--                            <div class="position-absolute white-mover">--}}
+{{--                                &nbsp;--}}
+{{--                            </div>--}}
+{{--                            <div class="position-absolute text-over">--}}
+{{--                                <p class="secondary-color-dark">--}}
+{{--                                    مشخصات سایت--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                            <div class="partialBorder">--}}
+{{--                                <div class="leftTop"></div>--}}
+{{--                                <div class="rightTop"></div>--}}
+{{--                                <div class="leftBot"></div>--}}
+{{--                                <div class="rightBot"></div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-12 col-md-4 ">--}}
+{{--                        <div class="position-relative over-hiidden w-100 ourcustomer elem second pt-4">--}}
+{{--                            <img src="assets/images/article-01.png" alt="" class="w-100">--}}
+{{--                            <div class="position-absolute white-mover">--}}
+{{--                                &nbsp;--}}
+{{--                            </div>--}}
+{{--                            <div class="position-absolute text-over">--}}
+{{--                                <p class="secondary-color-dark">--}}
+{{--                                    مشخصات سایت--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                            <div class="partialBorder">--}}
+{{--                                <div class="leftTop"></div>--}}
+{{--                                <div class="rightTop"></div>--}}
+{{--                                <div class="leftBot"></div>--}}
+{{--                                <div class="rightBot"></div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
@@ -217,120 +183,20 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
+                            @foreach($posts as $post)
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img alt="" class="card-img-top" src="{{$post->photo->file}}">
+                                        <div class="card-body">
+                                            <h2 class="card-title text-purple">{{$post->title}}</h2>
+                                            <p class="card-text">{{$post->caption}}</p>
+                                            <p class="text-right">
+                                                <a class="btn btn-purple" href="{{route('home.singleArticle',$post->id)}}">ادامه مقاله</a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
-                                    <div class="card-body">
-                                        <h2 class="card-title text-purple">عنوان مقاله</h2>
-                                        <p class="card-text">خلاصه مقاله را در این قسمت قرار داده تا کاربر
-                                            تشویق شود بقیه مقاله را بخواند. و طبعا خود مقاله شما نیز
-                                        </p>
-                                        <p class="text-right">
-                                            <a class="btn btn-purple" href="single-article.html">ادامه مقاله</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                             <div class="swiper-slide">
                                 <div class="card">
                                     <img alt="" class="card-img-top" src="assets/images/ui-design.svg">
