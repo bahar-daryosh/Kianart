@@ -56,6 +56,7 @@ Route::group(['middleware'=>'admin'],function (){
     Route::resource('dashboard/categories','AdminCategoriesController');
     Route::resource('dashboard/skills','AdminSkillsController');
     Route::resource('dashboard/workSample','AdminWorkSamplesController');
+    Route::resource('dashboard/forms','AdminFormsController');
 
 });
 Route::group(['middleware'=>'auth'],function (){

@@ -65,7 +65,7 @@
                 </ul>
             </li>
 
-            <li class=" nav-item"><a href="form-layout-basic.html"><i class="icon-paper"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">فرم های پایه</span></a>
+            <li class=" nav-item"><a href="{{route('forms.create')}}"><i class="icon-paper"></i><span data-i18n="nav.form_layouts.form_layout_basic" class="menu-title">فرم های پایه</span></a>
             </li>
 
             <li class=" nav-item"><a href="changelog.html"><i class="icon-copy"></i><span data-i18n="nav.changelog.main" class="menu-title">تغییرات</span><span class="tag tag tag-pill tag-danger float-xs-right">1.0</span></a>

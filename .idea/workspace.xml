@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0c8feb1-dede-46bd-a50a-07e35cd4b7ac" name="Default" comment="admin panel with user edit and media upload">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/customStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/category/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/category/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/reply/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/reply/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/comment/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/skill/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/skill/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/worksample/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/category/workSample-category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/skill/workSample-skill.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/work-sample.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/worksample/work-samples.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/core/form-builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/core/libraries/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/form/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThemainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThemainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/media/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/single-article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/single-article.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/adminheader.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/headerlog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/headerlog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/headermain.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/headermain.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,20 +155,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../larave_vue.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\misdarush\laravel\test\resources\views\home" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\misdarush\laravel\test\public\admin\js\core" />
+      <recent name="D:\misdarush\laravel\test\public\admin\js\core\libraries" />
       <recent name="D:\misdarush\laravel\test\resources\views\home\worksample" />
       <recent name="D:\misdarush\laravel\test\resources\views\dashboard\worksample" />
       <recent name="D:\misdarush\laravel\test\resources\views\dashboard" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\misdarush\laravel\test\resources\views\home" />
     </key>
   </component>
@@ -243,7 +218,8 @@
       <workItem from="1581310978322" duration="17388000" />
       <workItem from="1581484216406" duration="629000" />
       <workItem from="1581484867092" duration="18958000" />
-      <workItem from="1581742719763" duration="11014000" />
+      <workItem from="1581742719763" duration="15132000" />
+      <workItem from="1581829485650" duration="6834000" />
     </task>
     <task id="LOCAL-00001" summary="admin panel with user edit and media upload">
       <created>1580214610849</created>
