@@ -37,6 +37,11 @@ class AdminFormsController extends Controller
     public function store(Request $request)
     {
         //
+
+        if($request->all() != null) {
+            dd($request->all());
+        }
+
     }
 
     /**

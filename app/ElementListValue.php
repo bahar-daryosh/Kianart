@@ -4,17 +4,21 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Form extends Model
+class ElementListValue extends Model
 {
     //
     protected $fillable = [
 
         'name',
-        'owner_id'
+        'form_element_id',
+        'value',
+        'ip_address'
 
     ];
+
     public function Elements(){
 
-        return $this->hasMany('App\FormElement');
+        return $this->belongsTo('App\FormElement');
+
     }
 }

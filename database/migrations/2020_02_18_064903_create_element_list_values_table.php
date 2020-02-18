@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFormsTable extends Migration
+class CreateElementListValuesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class CreateFormsTable extends Migration
      */
     public function up()
     {
-        Schema::create('forms', function (Blueprint $table) {
+        Schema::create('element_list_values', function (Blueprint $table) {
             $table->Increments('id');
+            $table->integer('form_element_id')->unsigned()->index();
             $table->string('name');
-            $table->integer('owner_id')->index()->unsigned();
+            $table->text('value');
+            $table->string('ip_address');
             $table->timestamps();
         });
     }
@@ -28,6 +30,6 @@ class CreateFormsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('forms');
+        Schema::dropIfExists('element_list_values');
     }
 }
